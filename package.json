@@ -1,0 +1,63 @@
+{
+  "name": "Testing_Task's",
+  "version": "0.1.0",
+  "description": "Тестовые задания",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapt0p7/testingTask.git"
+  },
+  "author": "Igor Zabrodin",
+  "homepage": "https://github.com/rapt0p7/testingTask#readme",
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "0.1.x",
+    "babel-cli": "latest",
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-plugin-transform-class-properties": "latest",
+    "babel-plugin-transform-es2015-modules-commonjs": "latest",
+    "babel-preset-env": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "babel-preset-stage-0": "latest",
+    "babelify": "latest",
+    "browser-sync": "latest",
+    "browserify": "latest",
+    "cz-conventional-changelog": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-csso": "latest",
+    "gulp-dest-clean": "latest",
+    "gulp-gh-pages": "latest",
+    "gulp-newer": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-size": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "gulp-watch": "latest",
+    "history": "latest",
+    "merge-stream": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router": "latest",
+    "vinyl-buffer": "latest",
+    "vinyl-source-stream": "latest"
+  },
+  "editorconfig-cli": [
+    "*.html",
+    "*.json"
+  ],
+  "engines": {
+    "node": "7.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
