@@ -2,3 +2,5 @@
 
 # Репозиторий для тестовых заданий
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rapt0p7/testingTask.svg)](https://greenkeeper.io/)
+
