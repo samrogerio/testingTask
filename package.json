@@ -9,7 +9,7 @@
   "author": "Igor Zabrodin",
   "homepage": "https://github.com/rapt0p7/testingTask#readme",
   "devDependencies": {
-    "@htmlacademy/editorconfig-cli": "0.1.x",
+    "@htmlacademy/editorconfig-cli": "~1.0.0",
     "babel-cli": "latest",
     "babel-core": "latest",
     "babel-loader": "latest",
