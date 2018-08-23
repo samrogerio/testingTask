@@ -1,0 +1,75 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018,
+    "codeFrame": false,
+    "ecmaFeatures": {
+      "impliedStrict": true,
+      "classes": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "globals": {},
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:node/recommended",
+    "plugin:import/recommended",
+    "plugin:flowtype/recommended",
+    "prettier"
+  ],
+  "plugins": ["babel", "node", "import", "promise", "prettier", "flowtype"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "none",
+        "printWidth": 100,
+        "singleQuote": true
+      }
+    ],
+    "linebreak-style": ["error", "windows"],
+    "camelcase": ["error", { "properties": "never" }],
+    "comma-dangle": ["error", "never"],
+    "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["acc"] }],
+    "arrow-body-style": ["error", "as-needed"],
+    "import/prefer-default-export": "off",
+    "import/extensions": ["off", "never"],
+    "import/no-unresolved": [
+      2,
+      {
+        "caseSensitive": false,
+        "ignore": ["Components", "Pages", "Styles", "Config"]
+      }
+    ],
+    "no-unreachable": "off",
+    "node/no-unsupported-features": 0,
+    "node/no-unsupported-features/es-syntax": 0,
+    "node/no-deprecated-api": "error",
+    "node/no-missing-import": "off",
+    "node/no-missing-require": [
+      "error",
+      {
+        "allowModules": ["webpack"]
+      }
+    ],
+    "node/no-unpublished-bin": "error",
+    "node/no-unpublished-require": "off",
+    "node/process-exit-as-throw": "error"
+  },
+  "settings": {
+    "ecmascript": 6,
+    "import/parser": "babel-eslint",
+    "import/extensions": [".js", ".less"],
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config.js"
+      }
+    }
+  }
+}
