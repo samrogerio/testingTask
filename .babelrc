@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": ["last 2 versions", "ie 10"],
+          "node": "current"
+        },
+        "useBuiltIns": "entry",
+        "debug": false
+      }
+    ],
+    "@babel/preset-flow"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-runtime",
+    ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }]
+  ]
+}

@@ -1,0 +1,12 @@
+node_modules
+dist
+
+*.env
+*.log
+package-lock.json
+yarn.lock
+.idea
+npm-debug.*
+.DS_Store
+._.DS_Store
+webpack-stats.json
